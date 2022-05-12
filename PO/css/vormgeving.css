@@ -8,10 +8,19 @@ body {
     color: #c8c3bf;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     size: 14px;
-    padding-left: 10%;
+    /* padding-left: 10%; */
 }
 
 #vogel {
     width: 225px;
     height: auto;
+}
+
+#menu{
+    background:#ffffff;
+}
+
+#borgar{
+    width:100px;
+    height:100px;
 }
