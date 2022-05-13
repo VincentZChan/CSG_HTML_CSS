@@ -8,7 +8,6 @@ body {
     color: #c8c3bf;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     size: 14px;
-    /* padding-left: 10%; */
 }
 
 
@@ -19,16 +18,21 @@ body {
     margin: 0;
 }
 
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
 ul.navigation{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
     background-color: #333;
     
     position: fixed;
     top: 0;
     width: 100%;
+
+    min-width: 100px;
   }
   
 ul.navigation li {
@@ -51,3 +55,46 @@ ul.navigation li a:hover {
 ul.navigation li a.active {
     background-color: #04AA6D;
   }
+
+  @media screen and (max-width: 600px) {
+    ul.navigation li {float: none;}
+    .kolom {width: 100%;}
+  }
+
+.footer {
+  position:absolute;
+  bottom:0;
+
+  text-align: center;
+  background: #111;
+
+  overflow:hidden;
+  width: 100%;
+}
+
+.kolom {
+  float: left;
+  width: 40%;
+  padding: 15px;
+  
+}
+
+.rij:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#container{
+  margin-top: 60px;
+}
+
+#box{
+  border: white;
+  border-style: solid;
+  border-radius: 25px;
+  padding: 0px 10px 30px 10px;
+
+  background: white;
+}
+
