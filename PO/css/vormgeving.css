@@ -94,7 +94,11 @@ ul.navigation li a.active {
   border-style: solid;
   border-radius: 25px;
   padding: 0px 10px 30px 10px;
-
+  max-width: 500px;
   background: white;
 }
 
+#uitleg{
+  padding-left: 3%;
+  min-width: 500px;
+}
