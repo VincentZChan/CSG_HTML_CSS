@@ -4,7 +4,7 @@ html, body {
 }
 
 body {
-    background: #5d524c;
+    background: whitesmoke;
     color: #c8c3bf;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     size: 14px;
@@ -12,8 +12,8 @@ body {
 
 
 #borgar{
-    width:10px;
-    height:10px;
+    width:15px;
+    height:auto;
     padding: 0;
     margin: 0;
 }
@@ -25,48 +25,49 @@ ul{
   overflow: hidden;
 }
 
-ul.navigation{
-    background-color: #333;
-    
+#navigation ul{
+    background-color: #92e0ffdc ;
     position: fixed;
     top: 0;
     width: 100%;
-
     min-width: 100px;
   }
   
-ul.navigation li {
+#navigation ul li {
     float: left;
-    border-right: 1px solid #bbb;
+    border-right: 1px solid #ffffff;
   }
 
-ul.navigation li a {
-    display: block;
+
+#navigation ul li a{
+    display: inline-block;
     color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
   }
   
-ul.navigation li a:hover {
-    background-color: #111;
+#navigation ul li a:hover{
+    background-color: #62b2d1d3;
   }
 
-ul.navigation li a.active {
-    background-color: #04AA6D;
+#navigation ul li a.active {
+    background-color: #ffb7c5;
   }
 
   @media screen and (max-width: 600px) {
-    ul.navigation li {float: none;}
+    #uitleg{margin-top: 100%;}
+   #navigation ul li {float: none;}
     .kolom {width: 100%;}
   }
 
 .footer {
-  position:absolute;
+  position:fixed;
   bottom:0;
 
   text-align: center;
-  background: #111;
+  background: hsl(349, 100%, 93%);
+  color:black;
 
   overflow:hidden;
   width: 100%;
@@ -74,7 +75,7 @@ ul.navigation li a.active {
 
 .kolom {
   float: left;
-  width: 40%;
+  width: 45%;
   padding: 15px;
   
 }
@@ -90,15 +91,70 @@ ul.navigation li a.active {
 }
 
 #box{
-  border: white;
+  border: #87CEEB;
   border-style: solid;
   border-radius: 25px;
   padding: 0px 10px 30px 10px;
   max-width: 500px;
-  background: white;
+  background: #87CEEB;
+  color:white;
 }
 
 #uitleg{
+  margin-left: 5%;
   padding-left: 3%;
   min-width: 500px;
+  border: white;
+  border-style: solid;
+  border-radius: 25px;
+  max-width: 650px;
+}
+
+#home{
+  background-image: url(https://i.pinimg.com/originals/82/7e/ad/827ead5ce1325568c14e10370a2d7c6f.jpg);
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+
+#home_info{
+  text-align: center;
+  height: auto;
+  width: 800px;
+
+  position: absolute;
+  top: 50%;
+  left: 55%;
+  margin-top: -100px;
+  margin-left: -500px;
+
+  color: black;
+  background-color: #87CEEB;
+  border-radius: 32px; 
+}
+
+a:link, a:visited{
+  color: #ffffff;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #fff9c4;
+  text-decoration: none;
+}
+
+a:active {
+  color: #ffc4ca;
+  text-decoration: none;
+}
+
+#colofon{
+  background-image: url(https://i.pinimg.com/originals/6f/2d/34/6f2d34fe6c8746c56c14fbc55308ef99.jpg);
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+
+#showcase{
+  background-image: url(https://wallpaper.dog/large/20489783.jpg);
+  background-repeat: no-repeat;
+  background-size: auto;
 }
