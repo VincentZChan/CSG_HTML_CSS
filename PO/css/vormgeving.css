@@ -10,6 +10,9 @@ body {
     size: 14px;
 }
 
+p{
+  word-break: keep-all;
+}
 
 #borgar{
     width:15px;
@@ -57,8 +60,9 @@ ul{
 
   @media screen and (max-width: 600px) {
     #uitleg{margin-top: 100%;}
-   #navigation ul li {float: none;}
+    #navigation ul li {float: none;}
     .kolom {width: 100%;}
+
   }
 
 .footer {
@@ -111,9 +115,11 @@ ul{
 }
 
 #home{
+  width: 100%;
+  height: 100%;
   background-image: url(https://i.pinimg.com/originals/82/7e/ad/827ead5ce1325568c14e10370a2d7c6f.jpg);
   background-repeat: no-repeat;
-  background-size: auto;
+  background-size: cover;
 }
 
 #home_info{
@@ -148,13 +154,15 @@ a:active {
 }
 
 #colofon{
+  width: 100%;
+  height: 100%;
   background-image: url(https://i.pinimg.com/originals/6f/2d/34/6f2d34fe6c8746c56c14fbc55308ef99.jpg);
   background-repeat: no-repeat;
-  background-size: auto;
+  background-size: cover;
 }
 
 #showcase{
   background-image: url(https://wallpaper.dog/large/20489783.jpg);
   background-repeat: no-repeat;
-  background-size: auto;
+  background-size: cover;
 }
