@@ -7,20 +7,47 @@
     </head>
     <body id="showcase">
         <div id="container">
-        <h1>About Me</h1>
-        <p>Op deze pagina vertel ik iets over mijzelf.</p>
-
+            <div id="box" class="middel">
+                <h1>Welkom bij de gallerij!</h1>
+                <p>Op deze pagina vind je onder andere series, games en muziek.</p>
+                <p>Voor meer gedetaileerde informatie kunt u op de foto klikken.</p>
+            </div>
+        <!-- <div class="responsive">
+            <div class="gallery">
+              <a target="_blank" href="images/borgar.png">
+                <img src="images/borgar.png" alt="Cinque Terre" width="600" height="400">
+              </a>
+              <div class="desc">Add a description of the image here</div>
+            </div>
+          </div>
+           -->
+          
 <!--Menu-->    
-        <div id="navigation">
+<div class="navigatie">
+    <!--Logo-->
             <ul>
-<!--Logo-->
-                <li><a href="index.html"><img src="images/sakura.png" alt="logo" id="borgar"></img></a></li>                   
-                <li><a href="index.html">Home</a></li>
-                <li><a href="browse.html">Browse</a></li>
-<!--Waar je nu bent--> 
-                <li><a class="active" href="showcase.html">Showcase</a></li>
-                <li><a href="colofon.html">Colofon</a></li>
-                <li><a href="about.html">About Me</a></li>
+                    <li><a href="index.html"><img src="images/sakura.png" alt="logo" id="borgar"></img></a></li>
+    <!--Waar je nu bent-->                    
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="browse.html">Browse</a></li>
+                        <li><div class="dropdown">
+                                <button class="dropbtn">Showcase 
+                                </button>
+                            <div class="dropdown-content">
+                              <a href="showcase.html#anime">TV-Series</a>
+                              <a href="showcase.html#games">Games</a>
+                              <a href="showcase.html#muziek">Muziek</a>
+                            </div>
+                        </div></li>
+                        <li><a href="colofon.html">Colofon</a></li>
+                        <li><a href="about.html">About Me</a></li>
+                </div>
+            </ul>
+        <div id="anime">
+            <ul>
+                <li>Anime</li>
+                <li>Games</li>
+                <li>Muziek</li>
             </ul>
         </div>
         <div class="footer">
