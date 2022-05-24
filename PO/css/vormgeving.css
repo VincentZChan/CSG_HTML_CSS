@@ -227,12 +227,10 @@ a#nothing{
 /****************************************************************************************************************************************/
 /** Gallerij**/
 div.gallery {
-  border: 1px solid #ccc;
+  border: 1px solid rgb(0, 0, 0);
+  background-color: #6f63e0;
 }
 
-div.gallery:hover {
-  border: 1px solid #777;
-}
 
 div.gallery img {
   width: 100%;
@@ -240,14 +238,15 @@ div.gallery img {
 }
 
 div.desc {
-  padding: 15px;
+  padding: 10px;
   text-align: center;
+  color:#141c64;
 }
 
 .responsive {
   padding: 0 6px;
   float: left;
-  width: 24.99999%;
+  width: 25%;
 }
 
 .clearfix:after {
@@ -260,6 +259,9 @@ div.desc {
 /****************************************************************************************************************************************/
 /****************************************************************************************************************************************/
 /** Tekst**/
+.divider {
+  border-top: 3px dashed rgb(255, 255, 255);
+}
 
 #container{
   margin-top: 60px;
