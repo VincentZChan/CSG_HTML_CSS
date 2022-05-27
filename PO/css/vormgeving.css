@@ -228,7 +228,7 @@ a#nothing{
 /** Gallerij**/
 div.gallery {
   border: 1px solid rgb(0, 0, 0);
-  background-color: #6f63e0;
+  background-color: hsl(246, 100%, 83%);
 }
 
 
@@ -273,7 +273,7 @@ div.desc {
   border-radius: 25px;
   padding: 0px 10px 40px 10px;
   min-width: 500px;
-  max-width:650px;
+  max-width: 650px;
   width:auto;
   background: #87CEEB;
 }
@@ -336,22 +336,18 @@ div.desc {
 /****************************************************************************************************************************************/
 /****************************************************************************************************************************************/
 /****************************************************************************************************************************************/
-/** Scrollbar**/
 ::-webkit-scrollbar {
   width: 10px;
 }
 
-/* Track */
 ::-webkit-scrollbar-track {
   background: #6f63e0; 
 }
- 
-/* Handle */
+
 ::-webkit-scrollbar-thumb {
   background: rgb(179, 83, 235); 
 }
 
-/* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
   background: violet; 
 }
