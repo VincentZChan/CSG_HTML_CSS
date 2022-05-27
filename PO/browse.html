@@ -16,10 +16,11 @@
                 </div>
                 <div class="kolom">
                 <div id="box">
-                    <form action="colofon.html">
+                    <form action="error.html">
                         
-                        <div id="keuze">
+                        
                         <p>Wat voor soort media gaat het om?</p>
+                        <div id="keuze">
                             <input type="radio" id="anime" name="soort" value="anime" checked="checked">
                                 <label for="anime">TV-Serie</label><br>
                             <input type="radio" id="games" name="soort" value="games">
@@ -27,9 +28,9 @@
                             <input type="radio" id="muziek" name="soort" value="muziek">
                                 <label for="muziek">Muziek</label><br>                 
                             <input type="radio" id="anders" name="soort" value="anders">
-                           <label for="anders">Anders</label><br><br>
-                            
+                           <label for="anders">Anders</label>
                         </div>
+                        <br>
                         <div id="beschrijving">
                             <label for="titel">Titel</label><br>
                                 <input type="text" id="titel" name="titel" placeholder="Titel..." required><br><br>
@@ -37,11 +38,15 @@
                                 <input type="text" id="maker" name="maker" placeholder="Maker..." required><br><br>
                             <label for="jaar">Jaar</label><br>
                                 <input type="number" id="jaar" name="jaar" value="2022" required><br><br>
+                            <label for="image">Foto URL</label><br>
+                                <input type="url" id="image" name="image" placeholder="https://url.com/url.png" required><br><br>
+                            <label for="link">Beschrijving URL</label><br>
+                                <input type="url" id="link" name="link" placeholder="https://url.com" required><br><br>
                             <label for="beschrijving">Beschrijving</label><br>
                                 <textarea id="beschrijving" name="beschrijving" rows="4" cols="50" maxlength="5000"
                                 placeholder="Beschrijf de gegeven anime gerelateerde content..." required></textarea> <br><br>
                         </div>
-                        <input type="submit" value="Submit">
+                        <input type="submit" value="Upload">
                   </form>
                 </div>
                 </div>
