@@ -179,7 +179,7 @@ a#nothing{
 /** Kolom**/
 .kolom {
   float: left;
-  width: 45%;
+  width: 49.99999%;
   padding: 15px;
   
 }
@@ -273,8 +273,8 @@ div.desc {
   border-radius: 25px;
   padding: 0px 10px 40px 10px;
   min-width: 500px;
-  max-width: 650px;
   width:auto;
+  height:auto;
   background: #87CEEB;
 }
 
@@ -287,13 +287,14 @@ div.desc {
 }
 
 #uitleg{
-  margin-left: 5%;
+  background-color: #0000004f;
   padding-left: 3%;
   min-width: 500px;
   border: white;
   border-style: solid;
   border-radius: 25px;
-  max-width: 650px;
+  width:auto;
+  height:auto;
 }
 
 #middenscherm{
@@ -336,6 +337,7 @@ div.desc {
 /****************************************************************************************************************************************/
 /****************************************************************************************************************************************/
 /****************************************************************************************************************************************/
+/**Scrollbar**/
 ::-webkit-scrollbar {
   width: 10px;
 }
@@ -351,3 +353,52 @@ div.desc {
 ::-webkit-scrollbar-thumb:hover {
   background: violet; 
 }
+/****************************************************************************************************************************************/
+/****************************************************************************************************************************************/
+/****************************************************************************************************************************************/
+/****************************************************************************************************************************************/
+/**Form**/
+input[type=radio]{
+  border: 3px solid #ccc;
+}
+
+
+
+input[type=text],input[type=number],textarea {
+  width: 25%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 3px solid #ccc;
+  border-radius: 10px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+}
+
+textarea {
+  resize: vertical;
+  width: 100%;
+  height: 150px;
+  background-color: #f8f8f8;
+}
+
+input[type=text]:focus, textarea:focus,input[type=number]:focus {
+  border: 3px solid #555;
+}
+
+input[type=submit]{
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: #ffc4ca;
+  font-family: inherit;
+  margin: 0;
+}
+
+input[type=submit]:hover{
+  background-color: hwb(347 84% 0%)
+}
+
