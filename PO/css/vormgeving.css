@@ -184,6 +184,12 @@ a#nothing{
   
 }
 
+.kolom2 {
+  float: left;
+  width: 33.333%;
+  padding: 15px;
+}
+
 .rij:after {
   content: "";
   display: table;
@@ -368,8 +374,8 @@ input[type=radio]{
 
 
 
-input[type=text],input[type=number],textarea,input[type=url] {
-  width: 25%;
+input[type=text],input[type=number],textarea,input[type=url],#keuze,input[type=file] {
+  width: 100%;
   padding: 12px 20px;
   margin: 8px 0;
   box-sizing: border-box;
@@ -387,7 +393,7 @@ textarea {
   background-color: #f8f8f8;
 }
 
-input[type=text]:focus, textarea:focus,input[type=number]:focus,input[type=url]:focus {
+input[type=text]:focus, textarea:focus,input[type=number]:focus,input[type=url]:focus,input[type=file]:hover,#keuze:hover {
   border: 3px solid #555;
 }
 
@@ -406,12 +412,7 @@ input[type=submit]:hover{
   background-color: hwb(347 84% 0%)
 }
 
-#keuze{
-  border: 3px solid #ccc;
-  border-radius: 10px;
+#keuze,input[type=file]{
   background-color: white;
   color:#555;
-  width: 25%;
-  padding-bottom: 10px;
-  padding-top: 10px;
-}
+} 
