@@ -11,8 +11,15 @@
 <!--3 Tekst vlakker naast elkaar-->
             <div class="rij">
                 <div class="kolom2">
-                    <div id="box">
-                        <p>hi</p>
+                    <div id="box" class="sticky">
+                        <h1>Jouw eigen artikel</h1>
+                        <p>Heb je een favoriete anime, maar zie je het hier niet?<br>
+                            Dan kan je het zelf invoegen bij onze handige formulier.<br>
+                            Probeer alles zo accuraat mogelijk te beschrijven, en maak er iets moois van!<br>
+                            Het zou dan verschijnen op onze website! 
+                        </p>
+                        <img src="https://img.wattpad.com/008b14448fb77935fc772fc23af55c44925e6706/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f776174747061642d6d656469612d736572766963652f53746f7279496d6167652f6d54314a55564f584271436579773d3d2d3535333430393030322e313539363030373036326539643034343233343330343834303434322e676966?s=fit&w=720&h=720"
+                        alt="writing">
                     </div>
                 </div>
 
@@ -47,7 +54,7 @@
                                     <label for="link">Beschrijving URL</label><br>
                                         <input type="url" id="link" name="link" placeholder="https://url.com" required><br><br>
                                     <label for="beschrijving">Beschrijving</label><br>
-                                        <textarea id="beschrijving" name="beschrijving" rows="4" cols="50" maxlength="5000"
+                                        <textarea id="beschrijving" name="beschrijving"maxlength="5000"
                                         placeholder="Beschrijf de gegeven anime gerelateerde content..." required></textarea><br><br>
                                 </div>
 <!--"Upload" de info-->
@@ -57,33 +64,43 @@
                 </div>
 
                 <div class="kolom2">
-                    <div id="box">
-                        <p>hi</p>
+                    <div id="box" class="lol">
+                        <form action="error.html">
+                            <h1>Feedback?</h1>
+                            <textarea id="feedback" name="feedback"maxlength="0"
+                            placeholder="Schrijf hier alles wat je wilt..." required></textarea>
+                            <br><br>
+                            <input type="submit" value="Send Feedback">
+                        </form>
                     </div>
                 </div>
             </div>
 <!--Menu-->    
-<div class="navigatie">
-
-    <!--Logo-->
-            <ul>
-                    <li><a href="index.html"><img src="images/sakura.png" alt="logo" id="borgar"></img></a></li>
-    <!--Waar je nu bent-->                    
+            <div class="navigatie">
+<!--Logo-->
+                <ul>
+                    <li><a href="index.html"><img src="images/sakura.png" alt="logo" id="sakura"></img></a></li>
+<!--Waar je nu bent-->                    
                     <li><a href="index.html">Home</a></li>
-                    <li><a class="active" href="import.html">Import</a></li>
                     <li><a id="nothing" href="showcase.html"><div class="dropdown">
-                        <button class="dropbtn">Showcase 
-                        </button></a>
+                        <button class="dropbtn">Showcase</button>
+                        </a>
                     <div class="dropdown-content">
-                      <a href="showcase.html#anime">TV-Series</a>
-                      <a href="showcase.html#games">Games</a>
-                      <a href="showcase.html#muziek">Muziek</a>
+                        <a href="showcase.html#anime">TV-Series</a>
+                        <a href="showcase.html#games">Games</a>
+                        <a href="showcase.html#muziek">Muziek</a>
                     </div>
-                </div></li>
-                        <li><a href="colofon.html">Colofon</a></li>
-                        <li><a href="about.html">About</a></li>
-                </div>
-            </ul>
+                    </li>
+                    <li><a class="active" href="import.html">Import</a></li>
+                    <li><a href="colofon.html">Colofon</a></li>
+                    <li><a href="about.html">About</a></li>
+                </ul>
+            </div>
+<!--Meer ruimte-->
+            <div class="laagje">
+                <p>A</p>
+            </div>
+<!--Footer-->
             <div class="footer">
                 <p>Als opdracht van VNR - © 2022 Vincent Zhou</p>
             </div>
