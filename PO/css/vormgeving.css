@@ -203,13 +203,18 @@ a#nothing{
 /****************************************************************************************************************************************/
 /****************************************************************************************************************************************/
 /** Achtergrond**/
+.backgroundmanagement{
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 #error{
   background-color: #bcd9ff;
 }
 
 #home{
   background-image: url(https://i.pinimg.com/originals/82/7e/ad/827ead5ce1325568c14e10370a2d7c6f.jpg);
-  background-size: cover;
+  background-color: #8a53e3;
 }
 
 #about{
@@ -218,23 +223,17 @@ a#nothing{
 
 #colofon{
   background-image: url(https://i.pinimg.com/originals/6f/2d/34/6f2d34fe6c8746c56c14fbc55308ef99.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
   background-color: #141c64;
 }
 
 #showcase{
   background-image: url(https://wallpaper.dog/large/20489783.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
   background-color: #04042c;
 }
 
 #import{
   background-image: url(https://browsecat.net/sites/default/files/aesthetic-anime-desktop-wallpapers-49394-656095-7860227.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-
+  background-color: #2c43a1;
 }
 
 /****************************************************************************************************************************************/
@@ -363,6 +362,10 @@ div.desc {
   .sticky{position:relative;}
   .laagje{top:90px;}
   #georgia{font-size: 20px;}
+}
+
+@media screen and (max-width: 1080px) {
+  #home{background-image: url(https://wallpaperaccess.com/full/3446599.jpg);}
 }
 
 @media only screen and (max-width: 700px) {
